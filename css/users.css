@@ -1,0 +1,1233 @@
+*{
+padding: 0;
+margin: 0;
+}
+/*AQUI COMIENZA EL CIRCULO DEL PRIMER CONTENEDOR*/
+.redondo {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+/*AQUI COMIENZA EL MAIN*/
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 2.05rem;
+    border-radius: 2rem;
+    background-color: #272944;
+}
+
+#contenedor1 {  /*CONTENEDOR PADRE, EL PADRE CAMBIA A LOS HIJOS*/
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #363853;
+    height: calc(90vh - 2rem - 1rem );
+    margin-right: 1rem;
+}
+/*AQUI COMIENZA LOS CUADROS, EDITOR DE LETRAS, LISTA Y CONTENEDOR 3*/
+.cuadros{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right:0.5rem;
+    background-color: grey;
+}
+#letramenu{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+li {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    color:darkgrey;
+    font-family: 'Inter', sans-serif;
+}
+pre{
+    font-family: 'Inter', sans-serif;
+    font-size:0.8rem;
+    color: gray;
+    margin-top: 0.2rem;
+}
+h1{
+    color: white;  
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#contenedor3{
+    margin-top: 6rem;
+    margin-right: 1rem;
+}
+
+/*AQUI FINALIZA  LOS CUADROS, EDITOR DE LETRAS, LISTA Y CONTENEDOR 3*/
+
+
+
+
+/*AQUI COMIENZA EL SEGUNDO CONTENEDOR EL DE LADO DERECHO*/
+#contenedorsecundario{ /*CONTENEDOR SECUNDARIO */
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 0 0 0 1rem;
+}
+
+nav{ /*ESTA ES LA NAV*/
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 25rem;
+    height: 1.5rem;
+    background-color: #363853;
+    
+}
+
+.barrahorizontal{ /*ESTA ES LA BARRA*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuadrogrande{ /*ESTOS SON LOS CUADROS*/
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: grey;
+    margin: 0 0.4rem;
+}
+.cuadros1{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: gray;
+}
+/*FINALIZA LOS CUADROS*/
+
+.sectionright{ /*LA SECCION DERECHA CON SUS EDICIONES*/
+    display: flex;
+    flex-direction: row;
+}
+
+#ladochiquito{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+    margin-right: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    width: 2rem;
+    background-color:#363853;
+}
+
+
+#titulo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 64rem;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#minititulo{
+    display: flex;
+    padding: 0.3rem;
+    width: 9rem;
+    height: 2rem;
+    background-color: #363853;
+    flex-direction: row;
+}
+
+#texto{
+    padding: 0.4rem;
+    color: white;
+    margin-left: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+
+/*AQUI FINALIZA EL SEGUNDO CONTENEDOR EL DE LADO DERECHO*/
+
+/*AQUI COMIENZA EL TERCER CONTENEDOR*/
+#tercercontenedor{
+    display: flex;
+    padding: 0.8rem;
+    flex-direction: row;
+}
+/*AQUI COMIENZA LAS CATEGORIAS Y SU NOMBRE DEL TERCER CONTENEDOR*/
+#categorias{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+#categorias2{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 6rem;
+    flex-direction: row;
+}
+#categorias3{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 6.5rem;
+    flex-direction: row;
+}
+#categorias4{
+    display: flex;
+    color:gray;
+    margin-left: 7.5rem;
+    flex-direction: row;
+}
+#categorias5{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 6rem;
+    flex-direction: row;
+}
+#categorias6{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 8rem;
+    flex-direction: row;
+}
+.nombre{
+ margin: 0.4rem;
+ font-size: 0.8rem;
+}
+/*AQUI FINALIZA LAS CATEGORIAS Y SU NOMBRE DEL TERCER CONTENEDOR*/
+
+
+ /*AQUI COMIENZA EL CUARTO CONTENEDOR*/
+.contenedor-grande{
+    display: flex;
+    flex-direction: row;
+    height: calc(95.6vh - 8rem - 3rem - 2rem);
+    flex-wrap: wrap;
+    overflow: auto;
+}
+ #cuartocontenedor{
+    display: flex;
+    padding: 0.5rem;
+    background-color: #363853;
+    flex-direction: row;
+}
+#cuartocontenedor1{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+}
+
+ /*AQUI COMIENZA EL PRIMER CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.7rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#fila1{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre1{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-top:0.7rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+ /*AQUI COMIENZA EL SEGUNDO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+#fila11{
+    display: flex;
+    margin-left: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombre2{
+    display: flex;
+    align-items: center;
+    margin-left: 1.4rem;
+    margin-top:0.1rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+ /*AQUI COMIENZA EL TERCER CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+ #fila111{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    flex-direction: row;
+}
+.nombre3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.1rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+ /*AQUI COMIENZA EL CUARTO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+ #fila1111{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombre4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL QUINTO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+#fila11111{
+    display: flex;
+    margin-left: 5.8rem;
+    flex-direction: row;
+}
+.nombre5{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL SEXTO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+#fila111111{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: row;
+}
+.nombre6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+ /*AQUI COMIENZA EL TERCER CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+
+#fila22{
+    display: flex;
+    margin-left: 3.3rem;
+    flex-direction: row;
+}
+
+.nombre22{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-top:0.7rem;
+    margin-bottom: 0.4rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA EL CUARTO CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+#fila2222{
+    display: flex;
+    margin-left: 3.5rem;
+    flex-direction: row;
+}
+.nombre2222{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    align-items: center;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL QUINTO CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+#fila22222{
+    display: flex;
+    margin-left: 5.8rem;
+    flex-direction: row;
+}
+.nombre22222{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL SEXTO CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+#fila222222{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: row;
+}
+.nombre222222{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA CLOUDY*/
+
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.7rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#filacloudy1{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombrecloudy1{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-top:0.8rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filacloudy2{
+    display: flex;
+    margin-left: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombrecloudy2{
+    display: flex;
+    align-items: center;
+    margin-left: 1.4rem;
+    margin-top:0.3rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filacloudy3{
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: row;
+}
+.nombrecloudy3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.8rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filacloudy4{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: row;
+}
+.nombrecloudy4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filacloudy5{
+    display: flex;
+    margin-left: 4.8rem;
+    flex-direction: row;
+}
+.nombrecloudy5{
+    display: flex;
+    margin-left: 1.2rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filacloudy6{
+    display: flex;
+    margin-left: 3.4rem;
+    flex-direction: row;
+}
+.nombrecloudy6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA PUMPIDIM*/
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.5rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#filapumpidin{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombrepumpidin1{
+    display: flex;
+    margin-top:0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filapumpidin2{
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombrepumpidin2{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top:0.3rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filapumpidin3{
+    display: flex;
+    margin-left: 2.5rem;
+    flex-direction: row;
+}
+.nombrepumpidin3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.8rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filapumpidin4{
+    display: flex;
+    margin-left: 3.8rem;
+    flex-direction: row;
+}
+.nombrepumpidin4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filapumpidin5{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombrepumpidin5{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filapumpidin6{
+    display: flex;
+    margin-left: 4.3rem;
+    flex-direction: row;
+}
+.nombrepumpidin6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA NATAK*/
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.5rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#filanatak{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombrenatak1{
+    display: flex;
+    margin-top:0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filanatak2{
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombrenatak2{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top:0.2rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filanatak3{
+    display: flex;
+    margin-left: 2.5rem;
+    flex-direction: row;
+}
+.nombrenatak3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filanatak4{
+    display: flex;
+    margin-left: 4.7rem;
+    flex-direction: row;
+}
+.nombrenatak4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filanatak5{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombrenatak5{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filanatak6{
+    display: flex;
+    margin-left: 4.1rem;
+    flex-direction: row;
+}
+.nombrenatak6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA ANTON SAMU*/
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.5rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#filaantosamu{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombreantosamu1{
+    display: flex;
+    margin-top:0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filaantosamu2{
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombreantosamu2{
+    display: flex;
+    align-items: center;
+    margin-top:0.1rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filaantosamu3{
+    display: flex;
+    margin-left: 1.8rem;
+    flex-direction: row;
+}
+.nombreantosamu3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filaantosamu4{
+    display: flex;
+    margin-left: 3.5rem;
+    flex-direction: row;
+}
+.nombreantosamu4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filaantosamu5{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombreantosamu5{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filaantosamu6{
+    display: flex;
+    margin-left: 4.4rem;
+    flex-direction: row;
+}
+.nombreantosamu6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA LIZZZA*/
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.5rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#filalizzza{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombrelizzza1{
+    display: flex;
+    margin-top:0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filalizzza2{
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombrelizzza2{
+    display: flex;
+    align-items: center;
+    margin-top:0.3rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filalizzza3{
+    display: flex;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+.nombrelizzza3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filalizzza4{
+    display: flex;
+    margin-left: 3.5rem;
+    flex-direction: row;
+}
+.nombrelizzza4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filalizzza5{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombrelizzza5{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filalizzza6{
+    display: flex;
+    margin-left: 4.3rem;
+    flex-direction: row;
+}
+.nombrelizzza6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA EL PERFIL12345*/
+.circulofila{
+    width: 2.3rem;
+    height: 2.3rem;
+    align-items: center;
+    margin-left: 1.5rem;
+    background-color:grey;
+    border-radius: 3rem;
+}
+
+#fila12345{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre123451{
+    display: flex;
+    margin-top:0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#fila123452{
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombre123452{
+    display: flex;
+    align-items: center;
+    margin-top:0.1rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #fila123453{
+    display: flex;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+.nombre123453{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #fila123454{
+    display: flex;
+    margin-left: 3.5rem;
+    flex-direction: row;
+}
+.nombre123454{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#fila123455{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombre123455{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#fila123456{
+    display: flex;
+    margin-left: 4.2rem;
+    flex-direction: row;
+}
+.nombre123456{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*AQUI COMIENZA LA SEIS*/
+
+#filalcha{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombrealcha1{
+    display: flex;
+    margin-top:0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filaalcha2{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombrealcha2{
+    display: flex;
+    align-items: center;
+    margin-top:0.3rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filaalcha3{
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: row;
+}
+.nombrealcha3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+ #filaalcha4{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombrealcha4{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filaalcha5{
+    display: flex;
+    margin-left: 6rem;
+    flex-direction: row;
+}
+.nombrealcha5{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.7rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+#filaalcha6{
+    display: flex;
+    margin-left: 4.1rem;
+    flex-direction: row;
+}
+.nombrealcha6{
+    border-color: white;
+    padding: 10px; 
+    background-color: #272944;
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.9rem;
+    margin-top: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+

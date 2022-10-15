@@ -1,0 +1,524 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.redondo {  /*AQUI COMIENZA EL CIRCULO DEL PRIMER CONTENEDOR*/
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: white;
+    font-family:'Inter', sans-serif;
+    font-size: xx-large;
+    margin-top:2rem;
+    background-color: grey;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 6rem;
+}
+#punto{
+    background-color:blue;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 4rem;
+}
+
+#circulo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+/*AQUI FINALIZA  LAS EDICIONES PARA EL CIRCULO Y LA LETRA DEL CIRCULO*/
+
+
+#contenedor-padre{ /*LAS EDICIONES DEL CONTENEDOR PADRE*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 10rem;
+    padding: 1rem;
+    height: calc(92.2vh - 2rem - 1rem);
+    align-items: center;
+    background-color: #363853;
+}
+
+main{ /*LAS EDICIONES DEL MAIN*/
+    display: flex;
+    flex-direction: row;
+    padding: 2.1rem;
+    background-color: #272944;
+    border-radius: 3rem;
+}
+
+/*AQUI COMIENZA LAS EDICIONES DE LAS LISTAD E ICONOS DEL CONTENEDOR PADRE*/
+#contenedor-hijo1{
+margin-top: 2rem;
+}
+.cuadro11{
+    padding-left: 0.3rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+.cuadro{
+    margin-right: 0.5rem;
+    color: white;
+}
+.nombre{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.cuadro1{
+    color: blue;
+    margin-right: 0.5rem;
+
+}
+.nombre1{
+    color: blue;
+    font-family: 'Inter', sans-serif;
+
+}
+
+li{
+    flex-direction: row;
+    display: flex;
+    padding: 0.8rem;
+}
+
+#contenedor-hijo2{
+margin-top: 5rem;
+margin-right: 1.2rem;
+}
+
+/*AQUI FINALIZA LAS EDICIONES DE LAS LISTAD E ICONOS DEL CONTENEDOR PADRE*/
+
+#contenedor-secundario{ /*AQUI COMIENZA EL CONTENEDOR SECUNDARIO*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 0 0 1rem;
+}
+
+/*AQUI COMIENZA LAS EDICIONES DE LA BARRALATERAL*/
+#barrahorizontal{
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    height: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    background-color: #363853;
+}
+#buscador{
+    display: flex;
+    justify-content: space-between;
+}
+pre{
+    color: white;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+#ladoderecho{
+    flex-direction: row;
+    display: flex;
+    border-radius: 3rem;
+    margin-right: 0.3rem;
+}
+#ladoen{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.3rem;
+  width: 3rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+ padding-left: 1.5rem;
+  margin-right: 0.3rem;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: #363853;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+#iconoen{
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.7rem;
+   }
+#iconoderecho{
+    border-radius: 10rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    top:0.3rem;
+    position: relative;
+    background-color:#363853;
+    color: white;
+}
+#iconoderecho i{
+  padding: 0.7rem;
+  padding-right: 0.5rem;
+}
+#puntito{
+    background-color: red;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 1.2rem;
+    top:0.5rem;
+    border-radius: 3rem;
+}
+#iconogato{
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 4rem;
+}
+/*AQUI FINALIZA  LAS EDICIONES DE LA BARRALATERAL*/
+
+/*AQUI COMIENZA LA FILA DE SECCION CON LOS OTROS 3 CUADROS*/
+#titulo{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+#minititulo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+}
+#minititulo2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 31.6rem;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    align-items: center;
+    border-radius: 4rem;
+    background-color:#363853;
+    font-family: 'Inter', sans-serif;
+
+}
+#iconomini{
+    color: white;
+    padding-left: 0.8rem;
+    padding-top: 0.1rem;
+}
+#minititulo3{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+    padding-top: 0.5rem;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    align-items: center;
+    border-radius: 4rem;
+    background-color:#363853;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#minititulo4{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+    padding-top: 0.5rem;
+    padding: 0.7rem;
+    padding-left: 0.9rem;
+    align-items: center;
+    border-radius: 4rem;
+    background-color:#363853;
+    font-family: 'Inter', sans-serif;
+
+}
+#iconominidates{
+    color: white;
+    padding-left: 2.2rem;
+    padding-top: 0.1rem;
+}
+/*AQUI FINALIZA LA FILA DE SECCION CON LOS OTROS 3 CUADROS*/
+
+/*AQUI COMIENZA LOS CUADROS QUE VA A LLEVAR EL CONTENEDOR CON LA INFORMACION*/
+
+#ultimo-contenedor{
+    display: flex;
+    height: calc(77vh - 2rem - 1rem );
+
+}
+#cuadros-contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3rem;
+    overflow: auto;
+}
+
+/*AQUI FINALIZA  LOS CUADROS QUE VA A LLEVAR EL CONTENEDOR CON LA INFORMACION*/
+
+/*AQUI COMIENZA EL CONTENIDO DE LOS ARTICULOS */
+.Categoria1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: #363853;
+    width: 50vh;
+    height: 18.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+}
+
+.img1{
+    display: flex;
+    width: 50vh;
+    height: 8rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+#boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59f081;
+    color: #fff;
+    margin-top: -40px;
+    border-radius: 1rem;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    width: 10vh;
+    height: 1.5rem;
+    font-size: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.Categoria2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minicate2{
+    font-size: 11px;
+    margin-left: 20px;
+    color: darkgray;
+    font-family: 'Inter', sans-serif;
+}
+
+.Categoria3{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px;
+}
+
+
+.imagenmujer{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+h2{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.texto-grande{
+    color: #f9f9fa;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.Categoria-iconos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    color: #404bda;
+    border-color: #404bda;
+    width: 18vh;
+    margin-left: 20px;
+    height: 2rem;
+}
+
+#iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+    margin-top: 0.5rem;
+    gap: 12px;
+    color: #f9f9fa;
+}
+
+#uno{
+    display: flex;
+    gap: 4px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+#dos{
+    display: flex;
+    gap: 4px;
+}
+
+#tres{
+    display: flex;
+    gap: 4px;
+}
+
+.Segunda-categoria{
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    width: 50vh;
+    height: 18.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+   
+}
+#buttondevelcoment{
+    color: #59f081;
+    border-color: #59f081;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 18vh;
+    margin-top: 0.7rem;
+    margin-left: 20px;
+    height: 2rem;
+}
+.Tercera-categoria{
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    width: 50vh;
+    height: 18.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+}
+#botonpeding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    margin-top: -40px;
+    border-radius: 1rem;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    width: 10vh;
+    height: 1.5rem;
+    font-size: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+#buttonCrypto{
+    color: #404bda;
+    border-color: #404bda;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 18vh;
+    margin-top: 0.7rem;
+    margin-left: 20px;
+    height: 2rem;
+}
+#Primera-fila{
+    display: flex;
+    flex-direction: row;
+   margin-top: 1rem;
+}
+#Segunda-fila{
+    display: flex;
+    flex-direction: row;
+   margin-top: 1rem;
+}
+
+#Cuarta-categoria{
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    width: 50vh;
+    height: 18.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 3rem; 
+}
+#buttondelete{
+    color: orangered;
+    border-color: orangered;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 18vh;
+    margin-top: 0.7rem;
+    margin-left: 20px;
+    height: 2rem;
+}
+#buttondesign{
+    color: #ec36b6;
+    border-color: #ec36b6;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 18vh;
+    margin-top: 2rem;
+    margin-left: 20px;
+    height: 2rem;
+}
+#iconossegunda-fila2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+    margin-top: 2rem;
+    gap: 12px;
+    color: #f9f9fa;
+}
+#Tercera-fila{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+/*AQUI FINALIZA EL CONTENIDO DE LOS ARTICULOS */
+

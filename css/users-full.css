@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{ /*AQUI COMIENZA EL MAIN*/
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.redondo {  /*AQUI COMIENZA EL CIRCULO DEL PRIMER CONTENEDOR*/
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: #272944;
+    padding-top: 0.1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    margin-top:2rem;
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 6rem;
+}
+#punto{
+    background-color:blue;
+    margin-bottom: 1rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 4rem;
+}
+
+#test{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+/*AQUI FINALIZA  LAS EDICIONES PARA EL CIRCULO Y LA LETRA DEL CIRCULO*/
+
+
+#contenedor1{ /*AQUI COMIENZA EL CONTENEDOR 1- ESTE ES EL CONTENEDOR PADRE*/
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;
+    padding: 1.5rem;
+    background-color:  #f9f9fA;
+    height: calc(90vh - 2rem - 1rem );
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+/*AQUI COMIENZA LAS EDICIONES DE LA LISTA Y LOS ICONOS*/
+.cuadro11{
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    margin-right: 1rem;
+}
+.cuadro{
+    margin-top: 0.2rem;
+    margin-right: 0.7rem;
+}
+
+#hijo-contenedor1{
+ margin-top: 2.2rem;
+}
+#hijo-contenedor3{
+    margin-right: 0.5rem;
+}
+li{
+    padding: 0.8rem;
+    flex-direction: row;
+    display: flex;
+}
+
+.nombre{
+    font-family: 'Inter', sans-serif;
+    padding-top: 0.2rem;
+    color:#272944;
+}
+
+#hijo-contenedor2{
+ margin-top: 4rem;
+}
+.cuadro1{
+    width: 1rem;
+    height: 1rem;
+    margin-left:6.3rem;
+    margin-top: 1rem;
+}
+.nombre1{
+    background-color: white;
+    color:#272944;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30rem;
+    padding-left: 1rem ;
+    padding-top: 1rem;
+    height: 2rem;
+    width: 10rem;
+}
+/*AQUI FINALIZA LAS EDICIONES DE LA LISTA Y LOS ICONOS*/
+
+
+#contenedor-secundario{ /*AQUI COMIENZA EL CONTENEDOR SECUNDARIO*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 0 0 1rem;
+
+}
+
+.buscador{ /*AQUI COMIENZA  LAS EDICIONES DE LA BARRAHORIZONTAL, SUS LETRAS E ICONOS*/
+    display: flex;
+    justify-content: space-between;
+}
+.barrahorizontal{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 25rem;
+    background-color: #f9f9fA;  
+    border-radius: 20rem;
+}
+pre{
+    font-family: 'Inter', sans-serif;
+    font-size:0.9rem;
+    color: gray;
+    margin-top: 0.2rem;
+}
+.sectionright{
+    display: flex;
+    flex-direction: row;
+}
+
+#ladochiquito{
+    border-radius: 4rem;
+    margin-top: 0.2rem;
+    width: 3.5rem;
+    padding: 0.5rem;
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    height: 2rem;
+    background-color: #f9f9fA;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem; 
+}
+
+#iconoen{
+ color: gray;
+ width: 1rem;
+ height: 1rem;
+ margin-left: 1rem;
+}
+
+#iconoderecho{
+    border-radius: 10rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+    margin-left:0.3rem ;
+    margin-right:0.3rem ;
+    background-color:#f9f9fA;
+    color: gray;
+}
+#iconoderecho i{
+  padding: 0.7rem;
+  padding-right: 0.5rem;
+}
+#puntito{
+    background-color: red;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 1.2rem;
+    top:0.5rem;
+    border-radius: 3rem;
+}
+#iconogato{
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4rem;
+}
+/*AQUI FINALIZA LAS EDICIONES DE LA BARRAHORIZONTAL, SUS LETRAS E ICONOS*/
+
+
+/*AQUI COMIENZA  LAS EDICIONES DEL TITULO Y SUB TITULO LADO DERECHO*/
+
+#titulo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+
+#letratitulo{
+ font-family: 'Inter', sans-serif;
+ font-size: xx-large;
+ color: #272944;
+}
+#minititulo2{
+    margin-top: 0.3rem;
+    border-radius: 4rem;
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    height: 2rem;
+    background-color: #f9f9fA;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem; 
+    margin-right: 1rem;
+
+}
+
+#iconotitulo2{
+    background-color: #f9f9fA;
+    padding-top: 0.2rem;
+    margin-left: 0.3rem;
+    color: gray;
+}
+
+/*AQUI FINALIZA LAS EDICIONES DEL TITULO Y SUB TITULO LADO DERECHO*/
+
+/*AQUI COMIENZA EL TERCER CONTENEDOR*/
+#tercercontenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.7rem;
+    background-color: #f9f9fA;
+    border-radius: 3rem;
+    height: calc(87vh - 3rem - 2rem);
+    overflow: auto;
+}
+.minitercercontenedor{
+    display: flex;
+    flex-direction: row;
+    padding: 0.8rem;
+}
+/*AQUI COMIENZA LAS CATEGORIAS Y SU NOMBRE DEL TERCER CONTENEDOR*/
+#categorias{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+#categorias2{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 6rem;
+    flex-direction: row;
+}
+#categorias3{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 6.5rem;
+    flex-direction: row;
+}
+#categorias4{
+    display: flex;
+    color:gray;
+    margin-left: 7.5rem;
+    flex-direction: row;
+}
+#categorias5{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 6rem;
+    flex-direction: row;
+}
+#categorias6{
+    display: flex;
+    color:gray;
+    align-items: center;
+    margin-left: 8rem;
+    flex-direction: row;
+}
+.nombrecate{
+ margin: 0.4rem;
+ font-size: 0.8rem;
+}
+/*AQUI FINALIZA LAS CATEGORIAS Y SU NOMBRE DEL TERCER CONTENEDOR*/
+
+/*AQUI COMIENZA LA PRIMERA CATEGORIA Y SU NOMBRE DEL TERCER CONTENEDOR*/
+
+#cuartocontenedor{
+    display: flex;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 3rem;
+    flex-direction: row;
+}
+#cuartocontenedor1{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+}
+/*AQUI COMIENZA EL PRIMER CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+.fotoperfil{
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    margin-left: 1.9rem;
+    border-radius: 3rem;
+}
+
+
+#fila1{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombrepatrick{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color:#272944;
+    padding-top: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+ /*AQUI COMIENZA EL SEGUNDO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+#fila11{
+    display: flex;
+    margin-left: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+}
+.nombre2{
+    display: flex;
+    align-items: center;
+    margin-left: 0.8rem;
+    margin-top:0.2rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color: #272944;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+ /*AQUI COMIENZA EL TERCER CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+ #fila111{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    flex-direction: row;
+}
+.nombre3{
+    display: flex;
+    margin-left: 1rem;
+    margin-top:0.3rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color:#272944;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+ /*AQUI COMIENZA EL CUARTO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+ #fila1111{
+    display: flex;
+    margin-left: 5.5rem;
+    flex-direction: row;
+}
+.nombre4{
+    display: flex;
+    margin-left: 0.4rem;
+    margin-top:1rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL QUINTO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+.iconopatrick{
+    color: blue;
+    margin-top: 0.8rem;
+    margin-right: 0.3rem;
+}
+#fila11111{
+    display: flex;
+    margin-left: 5.8rem;
+    flex-direction: row;
+}
+.nombre5{
+    display: flex;
+    margin-top:1rem;
+    margin-right: 0.8rem;
+    flex-direction: row;
+    color:blue;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL SEXTO CUADRO DE LA PRIMERA FILA DEL CONTENEDOR 4*/
+#fila111111{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: row;
+}
+.nombre6{
+    border-color: rgba(91, 245, 142, 0.911);
+    padding: 10px; 
+    background-color: rgba(91, 245, 142, 0.911);
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1.7rem;
+    border-radius: 4rem;
+    margin-top: 0.6rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+.icono3puntos{
+    color: gray;
+    margin-top: 0.8rem;
+    display: flex;
+
+}
+
+
+/*AQUI COMIENZA EL TERCER CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+
+#fila22{
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+.nombre22{
+    display: flex;
+    align-items: center;
+    margin-top:0.1rem;
+    flex-direction: row;
+    color: #272944;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+#filasabella3{
+    margin-left: 1.9rem;
+}
+.nombresabella3{
+    display: flex;
+    margin-top:1rem;
+    margin-right: 0.5rem;
+    flex-direction: row;
+    color:#272944;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA EL CUARTO CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+#fila2222{
+    display: flex;
+    margin-left: 4.2rem;
+    flex-direction: row;
+}
+.nombre2222{
+    display: flex;
+    margin-top:0.3rem;
+    margin-right: 1rem;
+    align-items: center;
+    flex-direction: row;
+    color:gray;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+/*AQUI COMIENZA EL QUINTO CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+#fila22222{
+    display: flex;
+    margin-left: 5.8rem;
+    flex-direction: row;
+}
+.nombre22222{
+    display: flex;
+    align-items: center;
+    margin-top:0.7rem;
+    margin-right: 0.9rem;
+    flex-direction: row;
+    color:gray;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+#iconosabella{
+    color:gray;
+    margin-top: 1.1rem;
+    margin-right: 0.3rem;
+}
+/*AQUI COMIENZA EL SEXTO CUADRO DE LA SEGUNDA FILA DEL CONTENEDOR 4*/
+#fila222222{
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: row;
+}
+.nombre222222{
+    border-color: rgba(91, 245, 142, 0.911);
+    padding: 10px; 
+    background-color: rgba(91, 245, 142, 0.911);
+    width: 5rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: 4rem;
+    margin-top: 0.6rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    color:white;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/*AQUI COMIENZA CATEGORIA ENVER*/
+
+
+#filaENVER{
+    display: flex;
+    margin-left: 3.2rem;
+}
+.nombreenver{
+
+        display: flex;
+        align-items: center;
+        margin-top:0.1rem;
+        flex-direction: row;
+        color: #272944;
+        font-size: 1rem;
+        font-family: 'Inter', sans-serif;
+} 
+
+#filaENVER3{
+    display: flex;
+    margin-left: 3.2rem;
+}
+
+#filaENVER4{
+ display: flex;
+ margin-left: 4.6rem;
+}
+
+#filaENVER5{
+    display: flex;
+    margin-left: 4.6rem;
+}
+#iconoENVER5{
+    color: orangered;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.3rem;
+}
+.nombreENVER5{
+    color: orangered;
+    margin-top: 0.8rem;
+
+}
+#filaENVER6{
+    margin-left: 3.7rem;
+}
+/*AQUI FINALIZA CATEGORIA ENVER*/
+
+
+/*AQUI COMIENZA CATEGORIA MICAELA*/
+#filamicaela{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 0.4rem;
+}
+#FILAMICAELA6{
+    margin-left: 4rem;
+}
+/*AQUI FINALIZA CATEGORIA MICAELA*/
+
+/*AQUI COMIENZA CATEGORIA NATA*/
+
+#filanata{
+    display: flex;
+    margin-left: 3.8rem;
+    margin-right: 0.4rem;
+}
+#filanata4{
+    display: flex;
+    margin-left: 5.1rem;
+}
+#filanata5{
+    display: flex;
+    margin-left: 5.5rem;
+    margin-right: 0.1rem;
+}
+/*AQUI FINALIZA CATEGORIA NATA*/
+
+/*AQUI COMIENZA CATEGORIA ANTO SAMU*/
+#filaSAMU{
+    display: flex;
+    margin-left: 1.4rem;
+}
+#filasamu4{
+    display: flex;
+    margin-left: 3.5rem;
+}
+#filasamu5{
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 0.1rem;
+}
+/*AQUI FINALIZA CATEGORIA ANTO SAMU*/
+
+/*AQUI COMIENZA CATEGORIA LIZZA*/
+
+#filalizza{
+    display: flex;
+    margin-left: 2.3rem;
+}
+#filaLIZZA3{
+    display: flex;
+    margin-left: 2.6rem;
+    margin-right: 0.4rem;
+}
+
+/*AQUI FINALIZA CATEGORIA lIZZA*/
+
+/*AQUI COMIENZA CATEGORIA 12345*/
+
+#filaBRENO{
+    display: flex;
+    margin-left: 2.8rem;
+    margin-right: 0.1rem;
+}
+/*AQUI FINALIZA CATEGORIA 12345*/
+
+/*AQUI COMIENZA CATEGORIA DAREK*/
+
+#filadarek{
+ display: flex;
+ margin-left: 4rem;
+ margin-right: 1.7rem;
+}
+#filadarek4{
+    display: flex;
+    margin-left: 5.3rem;
+    margin-right: 0.5rem;
+}
+
+
+
+
+

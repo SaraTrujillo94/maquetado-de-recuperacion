@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor-padre{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    background-image: url(../img/mujer\ negocio.png);
+    background-position: center center;
+    background-size: cover;
+    flex-direction: column;
+    flex: 1;
+}
+/*AQUI COMIENZA EL PRIMER INDEX*/
+
+.wolfpack{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    margin-top: 20.5rem;
+    align-items: center;
+    align-self: center;
+}
+.logo1{
+    margin-right: 0.4rem;
+    color:#ffffff;
+}
+.logo1 i{
+
+  font-size: 2rem;
+}
+.texto{
+    font-family:'Inter', sans-serif;
+    padding: 0.5rem;
+    display: flex;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+    justify-content: center;
+    color: rgba(245, 243, 243, 0.596);
+}
+b{
+    color:white;
+}
+
+.registro-pagina1{
+    margin-top: 0.8rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 96%;
+    height: 2rem;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro-pagina1 a{
+    text-decoration: none; 
+    text-align: none;
+    color: #0072ff;
+    font-family:'Inter', sans-serif;
+}
+
+.botones-pagina1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.registro-pagina2{
+    margin-top: 0.8rem;
+    background-color: rgba(211, 211, 211, 0.219);
+    border-radius: 0.5rem;
+    width: 96%;
+    height: 2rem;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Inter', sans-serif;
+}
+.registro-pagina2 a{
+    text-decoration: none; 
+    text-align: none;
+    color: white;
+    font-family:'Inter', sans-serif;
+}
+
+/*AQUI FINALIZA EL PRIMER INDEX*/
+
+/*AQUI COMIENZA LA HOJA DE ESTILO DEL LOGIN*/
+.Segundo-contenedorpadre{
+    display: flex;
+    background-position: center center;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+/*AQUI COMIENZA LA EDICION DE LA FLECHA Y EL TITULO LOGIN DEL LOGIN*/
+.flechadelogin{
+    color:#0072ff;
+    background-color: rgba(128, 128, 128, 0.089);
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    width: 1rem;
+}
+.texto-login{
+ color: black;
+ font-family:'Inter', sans-serif;
+margin-left: 1rem;
+}
+
+
+/*AQUI COMIENZA LA EDICION DE LOS CUADROS DEL LOGIN*/
+.Cuadros-de-entrada{
+display: flex;
+flex-direction: column;
+margin-top: 2rem;
+margin-left:1rem ;
+color: #0072ff;
+border-color: #0073ff38;
+margin-right: 1rem;
+font-family:'Inter', sans-serif;
+}
+
+.letra-email{
+    color: gray;
+    border-color: #0073ff38;
+    font-size: small;
+    font-family:'Inter', sans-serif;
+}
+
+.email{
+    border-color:  #0073ff18;
+    background-color: #0073ff18;
+    color: #0073ff;
+    border-color: #0073ff38;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+}
+
+.Cuadros-de-entrada2{
+display: flex;
+flex-direction: column;
+margin-top: 1.5rem;
+margin-left:1rem;
+color: #0072ff;
+border-color: #0073ff38;
+margin-right: 1rem;
+font-family:'Inter', sans-serif;
+
+}
+.password{
+    background-color: #0073ff18;
+    color: #0072ff;
+    border-color: #0073ff38;
+    border-radius: 0.5rem;
+    padding: 0.7rem;  
+}
+/*AQUI COMIENZA LA EDICION DEL SUBTITULO DEBAJO DE LA CONTRASEÑA DEL LOGIN*/
+
+.perdiste-tu-contraseña{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-family:'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #232a7a;
+}
+ /*AQUI COMIENZA LA EDICION DEL BOTON DE ENTRADA DEL LOGIN*/
+.boton-loginn{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.8rem;
+    padding-top: 0.7rem;
+    border-radius: 0.5rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #0072ff;
+}
+.boton-loginn a{
+    text-decoration: none; 
+    text-align: none;
+    color: white;
+    font-family:'Inter', sans-serif;
+    font-size: 0.7rem;
+    border: 0.5rem;
+}
+
+/*AQUI COMIENZA LA EDICION DE LA LINEA A PARTIR DE ABAJO DEL LOGIN*/
+
+.Or{
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    border-style: none;
+    color: #0072ff;
+    display: flex;
+}
+.Or1{
+    background-color: #363853;
+    margin: 1rem;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.botonos-con-iconos{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    gap:20px;
+}
+
+.icono-busqueda{
+    background-color: white;
+    width: 5rem;
+    padding: 0.5rem;
+    height: 1.5rem;
+    display: flex;
+    flex: 1;
+    margin-right: 1rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.644);
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.205);
+}
+.google{
+    flex: 1;
+    width: 2rem;
+    height: 2rem; 
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.ultimo-texto-login{
+    color: black;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-family:'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+.boton-de-registro-login{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.6rem;
+    margin-top: 0.7rem;
+    background-color: #0073ff6b;
+    text-decoration: none; 
+    height: 1.5rem;
+    font-family:'Inter', sans-serif;
+}
+.boton-de-registro-login a{
+    font-size: 0.6rem;
+    font-family:'Inter', sans-serif;
+    color: blue;
+    text-decoration: none; 
+    text-align: none;
+}
+
+
+/*AQUI FINALIZA  LA HOJA DE ESTILO DEL LOGIN*/
+
+/*AQUI COMIENZA LA HOJA DE ESTILO DE PROFILE*/
+
+.Tercer-contenedor-profile{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #0073ff09;
+}
+/*AUI COMIENZA LAS EDICIONES DEL LA FLECHA, TITULO Y FOTO DE PERFIL DERECHA CON EL PUNTO ROJO*/
+.flechadelogin1{ 
+    color:#0072ff;
+    margin-left: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flecha-1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.flechita-mona{
+    background-color: white;
+    width: 1rem;
+    padding: 0.5rem;
+}
+
+.foto-mujer-mona{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+}
+
+#puntito{
+    background-color: red;
+    border: 2px solid white;
+    position: relative;
+    display: flex;
+    width: 0.5rem;
+    height: 0.5rem;
+   top:0.7rem;
+    left: 1.5rem;
+    border-radius: 3rem;
+}
+/*AQUI FINALIZA LAS EDICIONES DEL LA FLECHA, TITULO Y FOTO DE PERFIL DERECHA CON EL PUNTO ROJO*/
+
+/*AQUI COMIENZA LAS EDICIONES DEL FOTO DE ELON MUSK, SU NOMBRE, LA BANDERA Y EL NOMBRE DEL PAIS*/
+.Elon-Musk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    font-family:'Inter', sans-serif;
+}
+.img-Elon{
+display: flex;
+border-radius: 1rem;
+ width: 8rem;
+ height: 8rem;
+}
+#puntito-verde{
+    background-color: rgb(0, 255, 0);
+    border: 2px solid white;
+    position: relative;
+    width: 0.8rem;
+    display: flex;
+    height: 0.8rem;
+    bottom:1rem;
+    left:3.7rem;
+    border-radius: 3rem;
+}
+.cuadro-bandera{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    font-family:'Inter', sans-serif;
+    align-items: center;
+    align-self: center;
+}
+.bandera{
+    margin-right: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    width: 1rem;
+    height: 1rem;
+}
+.pais{
+    color: gray;
+    font-size: small;
+    font-family:'Inter', sans-serif;
+}
+/*AQUI FINALIZA  LAS EDICIONES DEL FOTO DE ELON MUSK, SU NOMBRE, LA BANDERA Y EL NOMBRE DEL PAIS*/
+
+/*AQUI COMIENZA EL CONTENEDOR EURO*/
+
+.contenedor-euros{
+ display: flex;
+ flex-direction: row;
+ font-family:'Inter', sans-serif;
+ font-size: 0.8rem;
+ margin-top: 1rem;
+ align-items: center;
+ align-self: center;
+}
+.icono-euros{
+    color: white;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 0.3rem;
+    background-color: #0072ff;
+}
+.icono-euros2{
+    color: white;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    padding-left: 0.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-right: 0.3rem;
+    background-color: #0072ff;
+}
+/*AQUI FINALIZA  EL CONTENEDOR EURO*/
+
+/*AQUI COMIENZA EL CONTENEDOR DE ARTICLES, PODSCATS, VIDEOS*/
+
+.contenedor-iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+
+.icono-verde{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.verde-documento{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(44, 196, 44, 0.603);
+  border-radius: 0.5rem;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex: 1;
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.329);
+
+}
+.letra-verde{
+    display: flex;
+    font-family:'Inter', sans-serif;
+    font-size:0.8rem;
+    margin-top: 0.8rem;
+}
+.letra-verde1{
+padding-left: 0.3rem;
+
+}
+
+.rojo-documento{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(247, 0, 0, 0.164);
+    border-radius: 0.5rem;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex: 1;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.329);
+
+}
+
+.amarillo-documento{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(255, 255, 0, 0.466);
+    border-radius: 0.5rem;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex: 1;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.329);
+
+}
+/*AQUI FINALIZA EL CONTENEDOR DE ARTICLES, PODSCATS, VIDEOS*/
+
+/*AQUI COMIENZA EL CONTENEDOR DE TEACHES*/
+
+.teaches{
+display: flex;
+flex-direction: column;
+padding: 0.5rem;
+margin-top: 0.5rem;
+font-family:'Inter', sans-serif;
+align-items: center ;
+}
+.mini-titulo-peaches{
+    display: flex;
+    flex-direction: row;
+}
+.mini-titulo-peaches strong{
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+}
+.mini-titulo2{
+    display: flex;
+    margin-left: 0.5rem;
+    color: #00326e;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #0073ff2d;
+    border: 1px solid #0073ff2d;
+}
+
+.teaches-2{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    font-family:'Inter', sans-serif;
+    justify-content: center;
+}
+.mini-titulo3{
+    display: flex;
+    margin-left: 0.5rem;
+    color: #00326e;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #0073ff2d;
+    border: 1px solid #0073ff2d;
+}
+.mini-titulo4{
+    display: flex;
+    margin-left: 0.5rem;
+    color: #00326e;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #0073ff2d;
+    border: 1px solid #0073ff2d;
+}
+/*AQUI FINALIZA EL CONTENEDOR DE TEACHES*/
+
+/*AQUI COMIENZA EL CONTENEDOR DE SPEAKS*/
+.speaks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    flex:1;
+    font-family:'Inter', sans-serif;
+    justify-content: center;
+}
+.letra-speaks{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    padding: 0.2rem;
+}
+.letra-ingles{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+    color: black;
+    padding-top: 0.1rem;
+}
+.nativo{
+    padding-left: 0.3rem;
+    color: #0072ff;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.05rem;
+    font-size: 0.8rem;
+}
+.letra-español{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    padding-top: 0.1rem;
+    color: black;
+    padding-left: 0.3rem;
+    font-family:'Inter', sans-serif;
+}
+/*AQUI FINALIZA EL CONTENEDOR DE SPEAKS*/
+
+/*AQUI COMIENZA EL CONTENEDOR DEL ULTIMO CUADRO*/
+
+.mensajeria{
+ color: white;
+ background-color: #0072ff;
+ border-radius: 3rem;
+ padding: 0.4rem;
+ display: flex;
+ flex-direction: row;
+ position: absolute;
+ bottom: 3.1rem;
+ right:1.5rem;
+ font-size: 1.5rem;
+
+}
+.cuadro-flotante{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-top: 0.5rem;
+    padding: 1rem;
+    height: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.267);
+    justify-content: space-around;
+}
+
+.icono-flotante1 i{
+color: #0072ff;
+font-size: 1.3rem;
+}
+.icono-flotante i{
+    font-size: 1.3rem;
+    color: gray;
+}
+.icono-flotante2 i{
+color: white;
+background-color: #0072ff;
+padding: 0.2rem;
+border-radius: 0.1rem;
+font-size: 1.1rem;
+}
+.img-iconoflotante{
+    width: 1.3rem;
+    height: 1.3rem;
+}

@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*AQUI COMIENZA EL CIRCULO DEL PRIMER CONTENEDOR*/
+#redondo {
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-bottom: 3rem;
+    background-color:#ffffffe8;
+    border-radius: 3rem;
+}
+/*AQUI COMIENZA EL MAIN*/
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+/*AQUI COMIENZA EDICION DE LETRAS*/
+pre{
+    font-family: 'Inter', sans-serif;
+    font-size:0.8rem;
+    color: gray;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+}
+h1{
+    font-size: 30px;
+    margin-top: 30px;
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+}
+
+h4{
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+}
+
+h3{
+ color: #272944;
+ font-family: 'Inter', sans-serif;
+}
+
+h5{
+    color: gray;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+   color: #272944;
+}
+
+/*AQUI FINALIZA  EDICION DE LETRAS*/
+
+
+#contenedor1 {  /*CONTENEDOR PADRE, EL PADRE CAMBIA A LOS HIJOS*/
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #f9f9fA;
+    height: calc(90vh - 2rem - 1rem );
+    margin-right: 1rem;
+}
+/*AQUI COMIENZA LOS CUADROS, EDITOR DE LETRAS, LISTA Y CONTENEDOR 3*/
+.cuadro1 {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    border: 1px solid black;
+    background-color: #272944;
+}
+
+li {
+    display: flex;
+    padding: 1rem;
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+    flex-direction: row;
+}
+.minitexto{
+    font-family: 'Inter', sans-serif;
+    color: #272944;
+}
+
+#contenedor3{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+#contenedor2{ /*CONTENEDOR SECUNDARIO */
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 0 0 0 1rem;
+}
+
+nav{ /*ESTA ES LA NAV*/
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 25rem;
+    background-color: #f9f9fA;   
+}
+
+
+.barrahorizontal{ /*ESTA ES LA BARRA*/
+    display: flex;
+    justify-content: space-between;
+}
+
+/*ESTOS SON LOS CUADROS*/
+#cuadrochiquito{
+ border: 1px solid black;
+ width: 0.5rem;
+ height: 0.5rem;
+ background-color: #272944;
+ margin-left: 1rem;
+ 
+}
+
+.cuadrogrande{
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    background-color: #272944;
+    margin: 0 0.4rem;
+}
+/*FINALIZA LOS CUADROS*/
+
+.sectionright{ /*LA SECCION DERECHA CON SUS EDICIONES*/
+    display: flex;
+    flex-direction: row;
+}
+
+#ladochiquito{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #f9f9fA;  
+}
+/*AQUI FINALIZA LA SECCION DERECHA CON SUS EDICIONES*/
+
+/*AQUI COMIENZA LA EDICION DE LOS 4 CUADROS CON SUS EDICIONES*/
+.todoloshori{
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+    background-color: #f9f9fA;
+    margin: 1rem;
+}
+
+.hori1{
+    margin-left: 10px;
+    padding: 1rem;
+}
+
+.cuadrohori{
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    background-color: #272944;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/*AQUI FINALIZA LA EDICION DE LOS 4 CUADROS CON SUS EDICIONES*/
+
+/*AQUI COMIENZA LA EDICION DE LOS 2 CUADROS DE ABAJO LADO-IZQUIERDO CON SUS EDICIONES*/
+.nuevo{
+    display: flex;
+    align-items: center;
+    height: calc(65vh - 2rem - 1rem);
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin-top: 1rem;
+    border: 1px;
+    background-color: #f9f9fA;
+    text-align: center;
+}
+.titulo1{
+    margin-top: 0.5rem;
+    font-family: 'Inter', sans-serif;
+}
+.titulo{
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+    padding: 0.3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.numero{
+    margin-top: 0.3rem;
+}
+.dia{
+    margin-left: 80px;
+    margin-bottom: 1rem;
+}
+
+.segundonuevo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    text-align: center;
+    background-color: #f9f9fA;
+}
+#seis{
+    color: lightgrey;
+    font-family: 'Inter', sans-serif;
+}
+#catego{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.namecategoria{
+    flex-direction: column;
+    display: flex;
+}
+.namecategory1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgrey;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+.namecategory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: 0.3rem;
+}
+.cinco{
+    color:#272944;
+    padding-left: 0.4rem;
+}
+.cuatro{
+    padding-right: 0.4rem;
+    font-family: 'Inter', sans-serif;
+}
+.tercernuevo{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column
+}
+/*AQUI FINALIZA  LA EDICION DE LOS 2 CUADROS DE ABAJO LADO-IZQUIERDO CON SUS EDICIONES*/
+
+.contenedor-casiultimo{ /*AQUI COMIENZA  LA EDICION DE LOS 2 CUADROS DE ABAJO LADO-DERECHO CON SUS EDICIONES*/
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 25rem;
+    margin-left: 2rem;
+}
+#art1{
+    display: flex;
+    margin-top: 0.5rem;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    background-color:#f9f9fa;
+    flex-direction: column;
+    height: 23.3rem;
+}
+#letrademiniart1{
+    margin: 0.3rem;
+}
+#miniart1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+#segundominiart1{
+ background-color:lightgrey;
+ margin-top: 0.3rem;
+ height: 7.2rem;
+ margin-right: 1rem;
+}
+#mes{
+    border-radius: 2rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    border-color: white;
+}
+
+#art2{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 23.3rem;
+    background-color: #f9f9fa;
+}
+
+#letrademiniart2{
+    margin: 0.8rem;
+}
+
+#miniart2{
+    height: 1.5rem;
+    display: flex; 
+    flex-direction: row;
+    padding: 0.3rem;
+    margin-left: 0.4rem;
+}
+.nombre{
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    padding: 0.2rem;
+}
+#categorias{
+    margin-right: 5rem;
+}
+#categorias2{
+    margin-right: 2.5rem;
+}
+#categorias3{
+    margin-right: 17rem;
+}
+#categorias4{
+    margin-right: 6rem;
+}
+
+#fila1{
+
+    display: flex;
+    background-color:lightgrey;
+    flex-direction: row;
+    margin-left: 0.5rem;
+}
+#fecha{
+    margin-right: 1rem;
+}
+.nombrefecha{
+    font-family: 'Inter', sans-serif;
+   font-size: 13px;
+   padding-left: 0.3rem;
+   padding-top: 0.8rem;
+   color: gray;
+}
+#rectangulogris{
+    border: 1px solid ;
+    background-color: gray;
+    height: 2rem;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    margin-right:2rem ;
+    width: 3.5rem;
+}
+#titulofila1{
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    margin-right: 3rem;
+    padding: 0.1rem;
+    margin-bottom: 0.2rem;
+}
+.nombreautor{
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.7rem;
+    font-size: 12px;
+    margin-right:4.3rem;
+}
+.botonfila1{
+    margin-top: 0.5rem;
+    color: #272944;
+    border-color: #272944;
+    width: 4rem;
+    height: 1.5rem;
+}
+#fila2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+}
+.nombreautor2{
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.7rem;
+    font-size: 12px;
+    margin-left: 3.2rem;
+    margin-right:3.6rem;
+}
+.nombreautor3{
+    color: #272944;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.7rem;
+    font-size: 12px;
+    margin-left: 1.8rem;
+    margin-right:3.8rem;
+}
+
+#miniscrol{
+    display: flex;
+    flex-direction: column;
+    height: calc(20vh - 2rem - 1rem);
+    overflow: auto;
+}
+
+/*AQUI fINALIZA  LA EDICION DE LOS 2 CUADROS DE ABAJO LADO-DERECHO CON SUS EDICIONES*/
+

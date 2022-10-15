@@ -1,0 +1,593 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*AQUI COMIENZA LA EDICION DEL PRIMER CONTENEDOR DE PRIVIO OSEA EL INDEX*/
+.Primer-contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #3f336b;
+}
+
+.menu-quieto{
+    display: flex;
+    flex-direction: column;
+    background-color: #3f336b;
+	color: white; 
+}
+
+/*AQUI COMIENZA LA EDICION DEL TITULO-CONTENEDOR PRIVIO*/
+.Contenedor-privio{
+display: flex;
+flex-direction: row;
+color: white;
+padding: 0.8rem;
+justify-content: space-around;
+}
+.icono-treslineas i{
+    font-size: 1.5rem;
+    display: flex;
+    color: white;
+}
+.icono-tituloprivio{
+display: flex;
+flex-direction: row;
+font-size: 1.5rem;
+margin-right: 3rem;
+font-family:'Inter', sans-serif;
+}
+.icono-tituloprivio i{
+    padding-right: 0.1rem;
+}
+
+.campana{
+    color: white;
+    display: flex;
+    font-size: 1.3rem ;
+}
+.campana i{
+    padding-top: 0.2rem;
+}
+
+.lupa-privio i{
+    color: white;
+    padding-left: 1rem;
+}
+.punto-rojo-numero{
+    background-color: red;
+    position: relative;
+    display: flex;
+    width: 1rem;
+    height: 0.7rem;
+    border-radius: 2rem;
+    padding-top: 0.1rem;
+    justify-content: center;
+    right: 0.6rem;
+    bottom:0.1rem;
+}
+.treintados{
+    font-size: 0.6rem;
+    font-family:'Inter', sans-serif;
+}
+/*AQUI FINALIZA LA EDICION DEL TITULO-CONTENEDOR PRIVIO*/
+
+/*AQUI COMIENZA LA EDICION DEL TITULO*/
+.titulo-dashboard{
+ display: flex;
+ flex-direction: row;
+ color: white;
+ font-family:'Inter', sans-serif;
+ margin-left: 1rem;
+ margin-bottom: 0.6rem;
+}
+/*AQUI FINALIZA LA EDICION DEL TITULO*/
+
+/*AQUI COMIENZA EL CONTENEDOR DE PELICULAS*/
+
+.Contenedor-peliculas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+    height: calc(150vh - 2rem - 1rem);
+    overflow-y: scroll;
+}
+/*AQUI COMIENZA LAS EDICIONES DEL PRIMER CONTENEDOR DE LAS PELICULAS */
+.pelicula-1{
+ display: flex;
+ background-color: #857bb810;
+}
+.mini-pelicula1{
+    display: flex;
+    flex-direction: column;
+}
+.avengers{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.new-privio{
+display: flex;
+flex-direction: row;
+padding: 0.5rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5ebe78;
+    border-radius: 1rem;
+    width: 10vh;
+    height: 1rem;
+    font-size: 0.7rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.fecha-privio{
+    display: flex;
+    margin-left: 1.3rem;  
+    font-family:'Inter', sans-serif;
+    font-size: 0.5rem;
+    padding-top: 0.3rem;
+    color: rgba(255, 255, 255, 0.432);
+}
+.nombre-pelicula{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6rem;
+    padding-top: 0.6rem;
+    margin-left: 0.7rem;
+    align-self: center;
+    font-family:'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.circulo-gris{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 2rem;
+    top: 4.2rem;
+    right: 1.8rem;
+    width: 1rem;
+    height: 1rem;
+    justify-content: center;
+}
+.circulo-gris i{
+    color: white;
+    font-size: 0.5rem;
+    align-self: center;
+}
+
+.letra-trailer{
+    display: flex;
+    flex-direction: row;
+    font-family:'Inter', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    color: rgba(255, 255, 255, 0.76);
+}
+/*AQUI FINALIZA LAS EDICIONES DEL PRIMER CONTENEDOR DE LAS PELICULAS */
+
+/*AQUI COMIENZA LAS EDICIONES DE LA SEGUNDA PELICULA*/
+.pelicula-2{
+    display: flex;
+    background-color: #857bb810;
+    margin-top: 0.3rem;
+}
+
+.boton-EXPIRED{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6457AC;
+    border-radius: 1rem;
+    width: 10vh;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.nombre-pelicula-JOKER{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6rem;
+    padding-top: 0.6rem;
+    margin-left:0.6rem ;
+    font-family:'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+/*AQUI FINALIZA LAS EDICIONES DE LA SEGUNDA PELICULA*/
+
+/*AQUI COMIENZA LAS EDICIONES DE LA TERCERA PELICULA*/
+.pelicula-3{
+    display: flex;
+    background-color: #a396e710;
+    margin-top: 0.3rem;
+}
+.trailer1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.letra-trailer1{
+    display: flex;
+    flex-direction: row;
+    font-family:'Inter', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+    color: rgba(255, 255, 255, 0.76); 
+    width: 100%;
+}
+.candando{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; 
+}
+.icono-candando{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:0.8rem;
+    color: #6457AC;
+    font-size: 1rem;
+}
+
+/*AQUI FINALIZA  LAS EDICIONES DE LA TERCERA PELICULA*/
+
+.boton-VIEWED{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EE63B6;
+    border-radius: 1rem;
+    width: 10vh;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: white;
+    font-family: 'Inter', sans-serif; 
+}
+
+/*AQUI FINALIZA LA EDICION DEL PRIMER CONTENEDOR DE PRIVIO OSEA EL INDEX*/
+
+/*AQUI COMIENZA LA EDICION DEL PRIMER CONTENEDOR DE SEARCH*/
+.Contenedor-Search{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #3f336b;
+}
+/*AQUI COMIENZA LA EDICION DE LOS ICONOS Y TITULO DE SEARCH*/
+.Contenedor-search1{
+display: flex;
+flex-direction: row;
+color: white;
+padding: 0.8rem;
+}
+
+.icono-titulosearch{
+ display: flex;
+ flex-direction: row;
+ font-family: 'Inter', sans-serif;
+ font-size: 1.5rem; 
+ margin-left: 1rem; 
+}
+
+.buscador-search{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.lupa-search{
+    margin-left: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.527);
+    width: 40%;
+    color:rgba(255, 255, 255, 0.527);
+}
+.letra-buscador{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    width: 5rem;
+    background-color: #3f336b;
+    border: 0;
+    color: rgba(255, 255, 255, 0.527);
+}
+.iconos-de-buscador{
+    display: flex;
+    flex-direction: row;
+}
+.img1-search{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    padding: 0.2rem;
+    color: #6457ac88;
+}
+.img2-search{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    padding: 0.2rem;
+    color: #6457ac88;
+
+}
+.img1-letra{
+    margin-right: 1rem;
+}
+.img2-letra{
+    margin-right: 2rem; 
+}
+.img1-letra p{
+font-size: 0.5rem;
+text-align: center;
+color: rgba(255, 255, 255, 0.527);
+}
+.img2-letra p{
+font-size: 0.5rem;
+text-align: center;
+color: rgba(255, 255, 255, 0.527);
+}
+/*AQUI FINALIZA LA EDICION DE LOS ICONOS Y TITULO DE SEARCH*/
+
+/*AQUI COMIENZA LA EDICION DEL PRIMER CONTENEDOR DE LAS PRIMERA FILA DE SEARCH*/
+
+.Contenedor-peliculas-search{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+    height: calc(150vh - 2rem - 1rem);
+    overflow-y: scroll;
+}
+.fila1-contenedor{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: center;
+}
+.primera-pelicula-avengers{
+    display: flex;
+    flex-direction: column;
+}
+
+.Primer-poster{
+    display: flex;
+    margin-left: 1rem;
+    width: 6rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+.border1-blanco{
+    display: flex;
+    position: relative;
+    width: 0.8rem;
+    height: 0.8rem;
+    left: 5.5rem;
+    bottom: 1.5rem;
+    border: 2px solid white;
+    border-radius: 3rem;
+}
+
+.Titulo-poster{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    margin-left: 1.5rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+/*EDICIONES DEL POSTER DE JOKER*/
+
+.Titulo-poster-joker{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    margin-left: 1.5rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+.border2-blanco{
+    display: flex;
+    position: relative;
+    width: 0.8rem;
+    height: 0.8rem;
+    left: 5.5rem;
+    bottom: 1.5rem;
+    border: 2px solid white;
+    border-radius: 3rem;
+}
+
+/*EDICIONES DEL POSTER DE Django Unchained*/
+.Primer-poster-django{
+    display: flex;
+    margin-left: 2rem;
+    width: 6rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+.border-blanco-django{
+    display: flex;
+    position: relative;
+    width: 0.8rem;
+    height: 0.8rem;
+    left: 6.5rem;
+    bottom: 1.5rem;
+    border: 2px solid white;
+    border-radius: 3rem;
+}
+/*EDICIONES DEL POSTER DE WONDER WOMAN*/
+
+.Titulo-poster a{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.719);
+    text-decoration: none;
+}
+
+/*AQUI COMIENZA LA EDICION DEL PRIMER CONTENEDOR DEL TRAILER*/
+
+.Contenedor-trailer{
+    display: flex;
+    height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    background-color: #3f336b;
+
+}
+.fondo-mujermaravilla{
+    display: flex;
+    background-image: url('../img/pelicula-quinta.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 16rem;
+}
+.mini-fondo-mujer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem;
+}
+.flechadelogin a {
+    color: white;
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+    padding: 0.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.play-star{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+.circulo-gris-mujermaravilla{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 2rem;
+    width: 3rem;
+    height: 3rem;
+    left:7.4rem;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.circulo-gris-mujermaravilla i{
+    padding-top: 0.7rem;
+}
+.circulo-gris-mujermaravilla:hover{
+    color: white;
+    background-color: red;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.parte-icono-video{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content:space-around;
+}
+.icono-play{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}
+.cuadro-volume-tiempo{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+}
+.icono-volumen{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0.2rem;
+    color: white;  
+}
+.Tiempo-video{
+   color: white;
+   font-family:'Inter', sans-serif;
+   font-size: 0.7rem;
+   padding-left: 0.3rem;
+   padding-top: 0.4rem;
+}
+.icono-hd{
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.1rem;
+}
+.icono-expand{
+    color: white;
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-top: 0.2rem;
+}
+
+.titulopelicula-mujermaravilla{
+    color: white;
+    font-size: 0.8rem;
+    font-family:'Inter', sans-serif;
+    padding: 0.8rem;
+    display: flex;
+
+}
+.cuadro-año-tiempo-idioma{
+    display: flex;
+    flex-direction: row;
+    color: rgba(180, 180, 180, 0.582);
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    font-family:'Inter', sans-serif;
+}
+.texto-pelicula-mujermaravilla{
+    display: flex;
+    flex-direction: row;
+    color: rgba(180, 180, 180, 0.671);
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family:'Inter', sans-serif; 
+}
+.ultimo-contenedorde-trailer{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    font-family:'Inter', sans-serif; 
+    color: rgba(255, 255, 255, 0.842);
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    border: 1px solid rgba(212, 209, 209, 0.671);
+    width: 16rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.mesanje-trailer{
+    color: rgba(180, 180, 180, 0.671);
+    display: flex;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+

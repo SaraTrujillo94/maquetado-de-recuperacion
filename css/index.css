@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Primer-contenedor-Menu-principal{
+    background-image: url(../img/era-de-hielo.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.sidebar a{
+    display: flex;
+    flex-direction: column;
+    font-family:'Inter', sans-serif;
+    color: black;
+    margin-left: 10rem;
+    border-bottom: 4px solid black;
+}
+
+.sidebar ul{
+    list-style: none;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.sidebar li{
+    display: inline;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar li a:hover{
+    padding: 15px 15px;
+    background: transparent;
+    border: 1px solid black;
+    color: white;
+}
